@@ -5,6 +5,8 @@ set(SRC
 set(Inc
         CommonIncludes.h)        
 
+set(CMAKE_CXX_STANDARD 17)
+
 add_executable(BuildOut ${SRC} ${Inc})
 
 source_group(Src FILES ${SRC})
